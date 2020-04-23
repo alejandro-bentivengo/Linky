@@ -1,0 +1,25 @@
+# A simple URL Shrinker
+
+Tests have been designed to test core parts of the application, as well as some services
+
+Controllers:
+POST:/user with body {username, password} to register a new user
+POST:/login with body {username, password} to get a JWT authorization key
+POST:/u/ with body {url, secure (boolean)} to get a new url shortend
+GET:/u/{code} to redirect to the specified code if it exists
+GET:/u/ to request the user registered URLs
+PUT:/u/{code} with body {url, secure (boolean)} to modify an existing url
+DELETE:/u/{code} to delete an existing url
+
+Features:
+User registration
+Secure JWT authentication
+CRUD methods for url
+HTTP Redirect for urls
+Interfaces for core classes
+Spring DI
+Spring JPA (hibernate)
+MySql8 for DB engine (see dbscript.sql)
+Dockerfile ready for deployment
+Maven build
+Properties injection (RandomNumberGenerator)
