@@ -15,7 +15,7 @@
         <mysql.connector.version>8.0.19</mysql.connector.version>
         <jwt.version>3.3.0</jwt.version>
         <jaxb.version>2.3.0</jaxb.version>
-        <test.h2.version>1.4.197</test.h2.version>
+        <test.h2.version>2.0.206</test.h2.version>
         <test.junit.version>5.6.2</test.junit.version>
     </properties>
 
